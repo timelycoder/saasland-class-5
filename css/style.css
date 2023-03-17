@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  overflow: hidden;
+}
+
+header {
+  background-color: #7F56F7;
+  padding: 30px 0 72px 0px;
+}
+
+
+.logo {
+  width: 20%;
+  float: left;
+}
+
+nav {
+  width: 80%;
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 18px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+}
+
+.banner {
+  text-align: center;
+  padding: 150px 0 0 0;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 60px;
+}
+
+
+.banner p {
+  font-size: 23px;
+}
+
+/*abt section  */
+.about-section {
+  padding: 60px 0 0 0;
+  
+}
+
+
+.coloum-parent {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.column {
+  width: 50%;
+  padding: 50px;
+}
+
+.column h2 {
+  font-size: 40px;
+  padding: 25px 0;
+}
+
+.column p {
+  font-size: 20px;
+}
+
+.my-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  background-color: #7f56f5;
+  border: 2px solid #7f56f5;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* footar */
+.footer-sction {
+  padding: 50px 0;
+  background-color: #7f56f51f;
+}
+
+.col-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  width: 25%;
+  padding: 0 25px;
+}
+
+
+
+.col p {
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 20px;
+  padding: 0 345px 0 0;
+}
+
+
+
+
+.col ul li {
+  list-style: none;
+}
+
+.col ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 20px 0;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
